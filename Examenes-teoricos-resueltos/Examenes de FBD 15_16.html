@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://sudano.net/fbd/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <title>Examenes de FBD 15/16</title>
+
+    <link rel="stylesheet" href="./Examenes de FBD 15_16_files/style.css">
+<style type="text/css"></style></head>
+
+<body>
+    <div id="general">
+        <h1>Primer Parcial FBD</h1>
+        <p>
+            Estas respuestas se han sacado entre todos, se han puesto las respuestas, que entre todos hemos llegado
+            a la conclusión serian las correctas, tome este documento como una referencia para el estudio.
+        </p>
+        <dl class="leyenda">
+            <dt>El codigo de colores de las respuestas es el siguiente</dt>
+            <dd class="seguro">Las correctas y que se han comprobado en las transparencias de clase.</dd>
+            <dd class="niidea">Las que la mayoria cree que es la correcta pero no se han comprobado en las transparencias.</dd>
+            <dd class="duda">Las que hay dudas por parte de los que han respondido.</dd>
+        </dl>
+        <h3>Preguntas de Julio 2015</h3>
+        <dl class="preguntas">
+            <dt>1.-El concepto de seguridad se refiere a la realización de copias periodicas de los datos</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>2.-Como sólo acceden a través de las aplicaciones, los usuarios finales no pueden actualizar una base de datos</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>3.-El nivel interno debe ser diseñado por el Administrador de la BD</dt>
+            <dd class="duda">Falso</dd>
+            <dd class="aclaracion">posible respuesta página 17 tema 2</dd>
+            <dt>4.-El SGBD debe gestionar los accesos concurrentes de manera que la BD esté siempre libre de errores</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>5.-Puesto que la base de datos ofrece datos centralizados, la arquitectura centralizada es siempre la mas conveniente</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>6.-El catálogo de una BD almacena los metadatos de la misma y debe ser accesible a los usuarios</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">Respuesta del libro, siempre y cuando los usuarios tengan los permisos necesarios</dd>
+            <dt>7.-La introducción de las nuevas aplicaciones implica la modificación de todos los niveles de la BD</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>8.-Las aplicaciones deben actualizarse cuando el administrador indexa una tabla por algún atributo</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">El indexado de una tabla es transparente para los usuarios, solo se notan las busquedas mas rapidas</dd>
+            <dt>9.-UPDATE ... es un comando del DDL</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">página 11 tema 2 El update pertenece al DML</dd>
+            <dt>10.-La independencia fisica es posible gracias a la correspondencia externa/conceptual</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">Se deduce de la respuesta 4 del 2014</dd>
+            <dt>11.-La elaboración del esquema conceptual es tarea del programador de aplicaciones</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>12.-Las reglas de integridad de una BD deben formar parte del esquema de la misma y almacenarse dentro del catálogo de la BD</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">página 7 tema 4</dd>
+            <dt>13.-Si una relación es obligatoria para una entidad, no se puede insertar un elemento de dicha entidad sin establecer la relación</dt>
+            <dd class="niidea">Verdadero</dd>
+            <dt>14.-Las filas de una relación están ordenadas por su orden de llegada</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">página 8 tema 4</dd>
+            <dt>15.-La forma de determinar la cardinalidad de una relación en un diagrama E/R, es mediante el análisis semántico de la conexión entre entidades</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>16.-Siempre que dos tablas compartan las claves candidatas o primarias deben fusionarse</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">Se ha dicho en clase</dd>
+            <dt>17.-Una entidad débil no tiene claves candidatas</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">Lo que tiene es el determinante</dd>
+            <dt>18.-El modelo jerárquico es mas eficaz para plasmar las relaciones uno a muchos que el modelo relacional</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">Respuesta en el 3er parrafo de la página 6 del tema 3</dd>
+            <dt>19.-La dependencia existencial sólo se da entre entidades débiles y fuertes</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">Según pone el libro de FBD la definicion 4.4 de la página ...</dd>
+            <dt>20.-Una tabla puede tener varias claves candidatas y con distinto número de atributos</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">Se dijo en clase</dd>
+            <dt>21.-La diferencia entre clave candidata y una primaria es que la candidata puede tomar valor nulo</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">En la página 9 del tema 4</dd>
+            <dt>22.-La actualización de un valor de una llave primaria, que es referenciada por llaves externas, implica que los valores de las llaves externas deben también actualizarse</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>23.-La regla de la integridad exige que no existan tuplas duplicadas en una relación</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">Página 14 del tema 4</dd>
+            <dt>24.-Una clave externa y la primaria a la que está asociada pueden tener diferentes nombres</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">Se ha probado en clase de practicas</dd>
+            <dt>25.-En el modelo relacional, el acceso a los datos de una tupla se hace por valor</dt>
+            <dd class="niidea">Verdadero</dd>
+        </dl>
+        <h3>Preguntas Junio 2014</h3>
+        <dl class="preguntas">
+            <dt>1.-El principal objetivo de evitar la redundancia en una BD es ahorrar espacio en disco</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">La no redundancia es para que no se accedan a datos en lugares diferentes</dd>
+            <dt>2.-Cuando se diseña una BD es fundamental conocer las características técnicas del servidor sobre el que se va a implantar</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">Para eso esta la independencia fisica página 11 tema 1</dd>
+            <dt>3.-El término integridad hace referencia a la veracidad de los datos que se almacenan, esto es, a su correspondencia con la realidad</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">página 3 tema 3</dd>
+            <dt>4.-La independencia física permite reorganizar las estructuras del nivel interno sin que se vean afectados los programas de aplicaciones</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>5.-En el nivel externo se plasma la perspectiva que tiene cada usuario de la BD</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>6.-UPDATE … es un comando del DDL</dt>
+            <dd class="seguro">Falso</dd>
+            <dd class="aclaracion">página 11 tema 2 El update pertenece al DML</dd>
+            <dt>7.-Cuando se pasa un diagrama E/R a tablas, las claves candidatas no se tienen en cuenta</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>8.-La independencia física es posible gracias a la correspondencia externa/conceptual</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>9.-Gracias a la transformación conceptual/interna se puede mantener la independencia física</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>10.-La elaboración del esquema conceptual es tarea del programador de aplicaciones</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>11.-Una entidad que no tiene clave primaria es siempre una entidad débil</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>12.-La forma de implantar la cardinalidad de una relación de un diagrama E/R en una tabla, es mediante la correcta elección de las claves candidatas y primarias</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>13.-Una relación de cardinalidad muchos-muchos siempre genera una tabla con clave primaria compuesta</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>14.-Una relación de cardinalidad muchos-uno puede generar una tabla con clave primaria compuesta</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>15.-CREATE TABLE es un comando del DDL</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dd class="aclaracion">página 10 tema 2</dd>
+            <dt>16.-En una jerarquía, todas las entidades del conjunto de entidades genérico deben estar en un conjunto de entidades específico</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>17.-En una jerarquía, todas las entidades de un conjunto específico deben estar en el conjunto de entidades genérico</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>18.-Todas las tablas procedentes de entidades débiles tienen claves externas</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>19.-Un atributo no puede ser clave primaria y externa a la vez</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>20.-La diferencia entre una clave candidata y una primaria es que la candidata no tiene por qué ser minimal</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>21.-Una clave externa puede tomar el valor nulo</dt>
+            <dd class="seguro">Verdadero</dd>
+            <dt>22.-Una clave primaria puede tomar el valor nulo parcialmente</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>23.-La regla de integridad de entidad exige que no existan tuplas duplicadas en una relación</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>24.-La dependencia existencial sólo se da entre entidades débiles y fuertes</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>25.Todas las restricciones de integridad se pueden mantener eligiendo convenientemente claves candidatas, primarias y externas</dt>
+            <dd class="seguro">Falso</dd>
+        </dl>
+        <h3>Preguntas Junio 2016</h3>
+        <dl class="preguntas">
+            <dt>1.-El número de accesos a disco que hacen falta para obtener una página depende del tamaño de la página y del tamaño del bloque físico</dt>
+            <dd class="duda">Verdadera</dd>
+            <dt>2.-Se puede montar un árbol B sobre cualquier campo utilizando un indice denso como conjunto de secuencia</dt>
+            <dd class="duda">Verdadera</dd>
+            <dt>3.-El indice no denso mejora el barrido ordenado completo del fichero de la clave física</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>4.-En el hashing extendido lo mejor es que la pseudollave tenga muchos digitos</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>5.-En el nivel interno de una base de datos hay que tener también el nivel físico que gestiona el acceso a disco</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>6.-El indice no denso es mucho menor que el denso cuando caben varios registros en un bloque</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>7.-El orden de un arbol B fija el numero de punteros que salen de un nodo</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>8.-En un indice multinivel el indice de primer nivel (Nodo Hoja) puede ser denso o no denso</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>9.-Se pueden montar tantos indices densos como se necesiten</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>10.-El indice no denso es el único mecanismo de indexación posible cuando los datos están ordenados físicamente</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>11.-En el agrupamiento inter-archivo se ubican en una página registros de distinto tipo</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>12.-El orden de un árbol está determinado por el tamaño de la página que se asigna a los nodos del árbol</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>13.-Cuando la clave de un indice es compuesta (C1,C2) resulta eficiente el uso del indice para buscar por C1 o por C2</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>14.-Se puede combinar una organización multilistas con un árbol B para gestionar los acesos en una estructura de datos jerárquica</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>15.-Puesto que es una variante de árbol no denso, solo se puede montar un árbol B (sobre la clave física) de un archivo</dt>
+            <dd class="niidea">Falso</dd>
+            <dt>16.-El orden de un árbol influye directamente en el número de niveles</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>17.-El hashing dinámico es el método de acceso de acceso que mejor distribuye los datos en disco y, por tanto el que menos desperdicio ocasiona</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>18.-En el hashing extendido una mala elección en el tamaño de las páginas puede obligar a reorganizar completamente la extructura</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>19.-El indice denso ocupa el mismo tamaño que el propio fichero que indexa</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>20.-El hashing dinámico es muy eficaz por que la tabla hash va en memoria principal</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>21.-En ficheros no ordenados físicamente, no se pueden montar indices no densos</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>22.-Todas las páginas de una base de datos tienen la misma extructura</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>23.-Las páginas que componen un archivo almacenado no tienen por qué estar consecutivas en disco</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>24.-El acceso directo a registros garantiza siempre que encuentro una tupla con una sola lectura de bloque</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>25.-Lo normal es que cada archivo almacenado del nivel interno se almacene en un fichero físico separado</dt>
+            <dd class="seguro">Falso</dd>
+            <dt>26.-En el hashing extendido lo mejor es que la pseudollave se ajuste al tamaño del índice que se guarda en memoria</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>27.-Conocido el RID de un registro, no hace falta mas que un acceso a disco para recuperarlo</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>28.-La organización multilistas puede servir para conectar ficheros y es la base de los modelos de datos basados en grafos</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>29.-En acceso directo a registros, si se produce una colisión, habra un hueco en el fichero maestro que nunca se va a aprovechar</dt>
+            <dd class="seguro">Verdadera</dd>
+            <dt>30.-Un factor de bloqueo mayor a 1 implica tener más de un registro por página</dt>
+            <dd class="duda">Verdadera</dd>
+            <dd class="aclaracion">Tal y como se ha dicho por whatsapp la palabra "implica" despista un poco, por que un factor mayor que 1 indica que puede tener mas de un registro, pero no por eso debe de tener mas de un registro, es mas puede estar vacia</dd>
+        </dl>
+        <h3>TIPS: Para hacer el diagrama E/R</h3>
+        <dl class="">
+            <dt>Sgún la cardinalidad de las entidades</dt>
+            <dd>Si tenemos muchos a muchos se cogen las 2 claves primarias para paso a tablas</dd>
+            <dd>Si tenemos uno a muchos se coge la clave primaria del de muchos</dd>
+            <dd>Si tenemos uno a uno se puede escoger cualquiera de ellas pero siempre hay una mejor que otra</dd>
+        </dl>
+    </div>
+
+
+</body></html>
